@@ -346,3 +346,111 @@ function changeLight(color: Color) {
 }
 ```
 
+### Interface
+
+With type: 
+```js
+type User = {
+  name: string,
+  age: number
+}
+```
+With interface :
+```js
+interface User {
+  name: string,
+  age: number
+}
+```
+The syntaxes for type and interface are slightly different, since interface does not require an equals sign (=) before the typed object.
+The biggest difference between `interface` and `type` is that `interface` can only be used to type objects, while `type` can be used to type objects, primitives, and more.
+
+Since interface is constrained to typed objects and using class is a way to program with objects, interface and class are a great match. TypeScript gives us the ability to apply a type to an object/class with the `implements` keyword, like this:
+```js
+interface Robot {
+  identify: (id: number) => void;
+}
+ 
+class OneSeries implements Robot {
+  identify(id: number) {
+    console.log(`beep! I'm ${id.toFixed(2)}.`);
+  }
+ 
+  answerQuestion() {
+    console.log('42!');
+  }
+}
+```
+
+interface can nested: 
+```js
+interface About{
+  general: {
+    id: number,
+    name: string,
+    version: {
+      versionNumber: number
+    }
+  }
+}
+```
+We can define multiple types and reference them inside other types :
+```js
+interface Version {
+  versionNumber: number
+}
+
+interface General {
+  id: number,
+  name: string,
+  version: Version
+}
+
+interface About {
+  general: General
+}
+```
+Sometimes it’s convenient to copy all the type members from one type into another type. We can accomplish this with the extends keyword, like in this example:
+```js
+interface Shape {
+  color: string;
+}
+ 
+interface Square extends Shape {
+  sideLength: number;
+}
+ 
+const mySquare: Square = { sideLength: 10, color: 'blue' };
+```
+
+Sometimes it’s not possible to know the property names for an object, like when we get back information from an outside data source/API. While we may not know the exact property names at compile-time, we may know what the data will look like in general. In that case, it’s useful to write an object type that allows us to include a variable name for the property name. This feature is called index signatures.
+```js
+// data may look like :
+{
+  '40.712776': true;
+  '41.203323': true;
+  '40.417286': false;
+}
+// All the property names will be strings, and all their values will be booleans. We could write this object’s type like this:
+interface SolarEclipse {
+  [latitude: string]: boolean;
+} 
+```
+
+TypeScript allows us to make some type members optional:
+```js
+interface OptionsType {
+  name: string;
+  size?: string;
+}
+ 
+function listFile(options: OptionsType) {
+  let fileName = options.name;
+ 
+  if (options.size) {
+    fileName = `${fileName}: ${options.size}`;
+  }
+ 
+  return fileName;
+}
+```
