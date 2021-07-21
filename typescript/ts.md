@@ -1,5 +1,5 @@
 # TypeScript
-[Source](https://www.codecademy.com/courses/learn-typescript)
+> [Source 1](https://www.codecademy.com/courses/learn-typescript) | [Source 2](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
 
 ## What is typescript
 TypeScript (ts) code is a superset of Javascript code:
