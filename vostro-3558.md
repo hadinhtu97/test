@@ -12,11 +12,11 @@
 # Status
 | Type | Description | Fix |
 | ---- | ----------- | --- |
-| Keyboard | Some keys do not work | Use external keyboard or Buy laptop keyboard (200k ~ 300k)
-| Battery | Broken | Use direct power supply or Buy laptop battery (~400k)
+| Keyboard | Some keys do not work | Use external keyboard or Buy laptop keyboard (300k)
+| Battery | Broken | Use direct power supply or Buy laptop battery (400k)
 
 # Upgrade
 | Type | Description | Price |
 | ---- | ----------- | ----- |
-| Memory | 1 x 4GB DDR3 1600bus | 500k |
-| Disk | 1 x SSD 250GB | 1m | 
+| Memory | 1 x 4GB DDR3 1600bus | 450k |
+| Disk | 1 x SSD 120GB | 650k | 
