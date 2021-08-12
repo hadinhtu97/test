@@ -18,24 +18,18 @@
 
 **KNOWLEDGE** :muscle:
 
-- `yarn` :+1:
-  - syntax
 - `react` :+1:
-  - life circle, function component, class component, props, state, hook, ..
 - `next` :+1:
 - `mongoose`: :+1:
 - `typescript` :+1:
-  - typescript + react
 - `tailwind css` :+1:
 - `ant design` :+1:
-
 - `sql` :star:
 - `inertiajs` :star:
 
-- `php` :star:
-
 **Wondering** :confused:
 
+- `php` :star:
 - `Java` ???
 - `C#` ???
 
