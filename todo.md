@@ -1,36 +1,31 @@
-**FUNDAMENTALS** :triumph:
-
-- `oop` :+1:
+- `oop` :white_check_mark:
   - 4 principle of `oop`
-- `solid` :+1:
+- `solid` :white_check_mark:
   - 5 design principle in oop software development
-- `recursion` :+1:
+- `recursion` :white_check_mark:
   - what is it
   - how to use in programming
 - `data structures`
 - `algorithm`
-- `internet`
+- `internet` :fire:
+
   - how dose internet work
   - what is http? what is browsers, how they work
   - DNS and how it work
   - what is domain name
   - what is hosting
 
-**KNOWLEDGE** :muscle:
+- `react` :white_check_mark:
+- `next` :white_check_mark:
+- `mongoose`: :white_check_mark:
+- `typescript` :white_check_mark:
+- `tailwind` :white_check_mark:
+- `ant` :white_check_mark:
 
-- `react` :+1:
-- `next` :+1:
-- `mongoose`: :+1:
-- `typescript` :+1:
-- `tailwind css` :+1:
-- `ant design` :+1:
-- `sql` :star:
-- `inertiajs` :star:
-
-**Wondering** :confused:
-
-- `php` :star:
-- `Java` ???
-- `C#` ???
+- `sql`
+- `inertiajs`
+- `php/laravel`
+- `java`
+- `c sharp`
 
 ![img](img/keep-calm-and-study-hard.png)
