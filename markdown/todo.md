@@ -2,12 +2,12 @@
 | -------------- | ------------------- | ---------- | ---------- |
 | **react**      | **oop**             | **git**    | `leetcode` |
 | **next**       | **solid**           | **docker** |            |
-| **mongoose**:  | **recursion**       | **ci cd**  |            |
-| **typescript** | `internet`          |            |            |
+| **mongoose**   | **recursion**       | CI/CD      |            |
+| **typescript** | **internet**        |            |            |
 | **tailwind**   | **data structures** |            |            |
 | **ant**        | **algorithm**       |            |            |
+| `inertiajs`    |                     |            |            |
 | sql            |                     |            |            |
-| inertiajs      |                     |            |            |
 | php/laravel    |                     |            |            |
 | java           |                     |            |            |
 | c#             |                     |            |            |
