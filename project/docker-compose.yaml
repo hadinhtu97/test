@@ -1,0 +1,18 @@
+version: "3.0"
+
+services:
+  server:
+    build: .
+    command: --bootstrap=laravel --static-directory=public/
+    env_file:
+      - .env
+    ports:
+      - 8080:80
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_USER: root
+      POSTGRES_DB: root
+    ports:
+      - 1:1
